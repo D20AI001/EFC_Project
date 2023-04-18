@@ -18,18 +18,18 @@ CD fog_node_1
 fog_node_1
 
 docker build -t fog_node_1 .
-docker run -it --rm -p 9191:9191 --network=host -v /home/sagar/Main/SharedStorage/:/app/SharedStorage fog_node_1
+docker run -it --rm -p 9191:9191 --network=host -v <local dir>/SharedStorage/:/app/SharedStorage fog_node_1
 
 CD fog_node_2
 
 fog_node_2
 
 docker build -t fog_node_2 .
-docker run -it --rm -p 9292:9292 --network=host -v /home/sagar/Main/SharedStorage/:/app/SharedStorage fog_node_2
+docker run -it --rm -p 9292:9292 --network=host -v <local dir>/SharedStorage/:/app/SharedStorage fog_node_2
 
 CD cloud_server
 
 cloud_server
 
 docker build -t cloud_server .
-docker run -it --rm -p 9090:9090 --network=host -v /home/sagar/Main/SharedStorage/:/app/SharedStorage cloud_server
+docker run -it --rm -p 9090:9090 --network=host -v <local dir>/SharedStorage/:/app/SharedStorage cloud_server
