@@ -2,16 +2,16 @@
 FogFL: Fog Assisted Federated Learning
 
 
-# Data set link -
+Data set link -
 
-# We have used publicly available check xray data for this inference -
+We have used publicly available check xray data for this inference -
 
 https://drive.google.com/drive/folders/1nasqBJHVbypCmdn8ZzdDu1LJXA7m131L?usp=share_link
 
 
-# Please use the below commands to start the fog nodes and cloud server
+Please use the below commands to start the fog nodes and cloud server
 
-# CD into the corresponding directory before executing the below commands -
+CD into the corresponding directory before executing the below commands -
 
 CD fog_node_1
 
